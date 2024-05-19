@@ -1,11 +1,11 @@
 import './index.css'
-import Navbar from './component/molecules/Navbar'
+import Home from './component/Pages/Home'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
+      <Home/>
     </>
   )
 }

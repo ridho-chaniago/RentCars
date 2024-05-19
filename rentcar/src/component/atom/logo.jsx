@@ -2,9 +2,9 @@ import React from 'react'
 
 function Logo() {
   return (
-    <div>
-        <img src='public/images/carsFive.png' />
-    </div>
+      <button className=''>
+        <img className="max-h-[40px]" src='public/images/carsFive.png' />
+      </button>
   )
 }
 
