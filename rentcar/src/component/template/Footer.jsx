@@ -6,7 +6,7 @@ function Footer() {
         <div className='p-2 space-y-4 md:flex md:justify-between bg-[#F2F2F2]'>
             <div className='flex flex-col gap-4'>
                 <Logo />
-                <p>is a web-based application that sells various types of car brands. This application was created to make it easier for buyers so that buyers don't have to visit the place directly to see the car, just go through the website to see the details of the car and also with more flexible times.</p>
+                <p>is a web-based application that sells various types of car brands.<br/> This application was created to make it easier for<br/>buyers so that buyers don't have to visit the place directly<br/> to see the car, just go through the website to see the details of the<br/> car and also with more flexible times.</p>
                 <div className='flex gap-3'>
                     <img className='w-6' src="/images/phone.png" alt="" />
                     <p className='font-medium'>Ridho 0812-7678-4668</p>
