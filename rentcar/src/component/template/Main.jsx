@@ -13,12 +13,12 @@ function Main() {
             </div>
             <CarType />
             <div className='flex gap-5 md:gap-10 justify-center'>
-                <MerkCar src={"public/images/merk/hyundai.png"} />
-                <MerkCar src={"public/images/merk/nissan.png"} />
-                <MerkCar src={"public/images/merk/honda.png"} />
-                <MerkCar src={"public/images/merk/suzuki.png"} />
-                <MerkCar src={"public/images/merk/bmw.png"} />
-                <MerkCar src={"public/images/merk/chevrolet.png"} />
+                <MerkCar src={"/images/merk/hyundai.png"} />
+                <MerkCar src={"/images/merk/nissan.png"} />
+                <MerkCar src={"/images/merk/honda.png"} />
+                <MerkCar src={"/images/merk/suzuki.png"} />
+                <MerkCar src={"/images/merk/bmw.png"} />
+                <MerkCar src={"/images/merk/chevrolet.png"} />
             </div>
             <div className='p-5 bg-[#620707] my-10'>
                 <AllCarShow />
