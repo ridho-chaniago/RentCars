@@ -10,7 +10,7 @@ export const BtnUser = () => {
 export const BtnFav = () => {
     return (
         <button>
-            <img width={"30px"} src="/images/fav.png" alt="" />
+            <img width={"30px"} src="images/user.png" alt="" />
         </button>
     )
 }
