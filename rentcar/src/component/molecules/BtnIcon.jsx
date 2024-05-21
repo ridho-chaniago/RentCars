@@ -30,9 +30,9 @@ export const BtnSearch = () => {
         </button>
     )
 }
-export const BtnNewSec = ({ children, className }) => {
+export const BtnNewSec = ({ children, className,onClick }) => {
     return (
-        <button className={`bg-[#AF1313] text-white w-[40%] lg:p-4 lg:text-5xl ${className} p-1`}>{children}</button>
+        <button onClick={onClick} className={`bg-[#AF1313] text-white w-[40%] lg:p-4 lg:text-5xl ${className} p-1`}>{children}</button>
     )
 }
 export const BtnBackHome = ({ }) => {

@@ -8,3 +8,4 @@ export default function Text({tittle, price}) {
         </div>
     )
 }
+export const TextPrice=({children})=><p className='font-bold text-2xl'>{children}</p>
